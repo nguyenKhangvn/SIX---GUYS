@@ -1,0 +1,81 @@
+/* Reset default margin and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for header, main, and footer */
+header, main, footer {
+    width: 100%;
+    background-color: #f8f8f8;
+    padding: 20px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+header h1, footer p {
+    text-align: center;
+}
+
+/* Styling for categories sidebar */
+aside {
+    width: 30%;
+    float: left;
+}
+
+aside h2 {
+    border-bottom: 1px solid #ddd;
+}
+
+aside ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+aside li {
+    margin-bottom: 10px;
+}
+
+/* Styling for product section */
+.products {
+    width: 70%;
+    float: right;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.product h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.product p {
+    margin-bottom: 10px;
+}
+
+.product button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.product button:hover {
+    background-color: #45a049;
+}

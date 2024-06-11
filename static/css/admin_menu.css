@@ -1,0 +1,65 @@
+.nav-sidebar {
+    width: 20%;
+    position: relative;
+    float: left;
+}
+
+.sidebar {
+    width: 20%;
+    height: 100vh;
+    background-color: green;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border-right: 1px solid #ccc;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+.sidebar ul li a:hover {
+    background-color: #ddd;
+}
+
+
+.has-dropdown {}
+
+.dropdown-menu {
+    display: none;
+    margin-left: 8px;
+}
+
+.dropdown-menu li:hover {
+    position: relative;
+    display: block;
+    right: -5px;
+    color: #5fa533;
+}
+
+.has-dropdown:hover {
+    position: relative;
+    display: block;
+    right: -5px;
+    color: #5fa533;
+}
+
+.has-dropdown:hover .dropdown-menu {
+    display: block;
+}
